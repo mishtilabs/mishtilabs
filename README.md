@@ -1,6 +1,10 @@
 # 🪐 MishtiLabs — Product Studio & Creative Tech Suite
 
 <p align="center">
+  <img src="https://raw.githubusercontent.com/mishtilabs/mishtilabs/master/public/img/studio/banner.png" alt="MishtiLabs Banner" width="100%" />
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/badge/Next.js-16%20(Turbopack)-black?style=for-the-badge&logo=next.js" alt="Next.js 16" />
   <img src="https://img.shields.io/badge/React-19-blue?style=for-the-badge&logo=react" alt="React 19" />
   <img src="https://img.shields.io/badge/TypeScript-5.x-blue?style=for-the-badge&logo=typescript" alt="TypeScript" />
@@ -14,37 +18,60 @@
 ## ✦ The Vision
 **MishtiLabs** is a modern, high-end interactive product studio and development agency. *Mishti* means *sweet* in Bengali—a tribute to the warmth, care, and craftsman's pride we weave into our software. 
 
-This repository houses the studio's primary storefront: a highly aesthetic, motion-rich, 3D-integrated showcase listing our suite of 28+ products (led by **Pravah CRM** and **FlowLife**), our core capabilities, and custom development services.
+Through **MishtiLabs**, we build and operate 28+ internal products and help ambitious companies scale their technical architectures from zero to millions of users.
 
 ---
 
-## 🎨 Immersive Design & Interactive Highlights
+## 🚀 Featured Offerings
 
-### 🪐 Cosmic 3D Canvas
-Powered by `@react-three/fiber` and `@react-three/drei`. Features a custom-shaded icosahedron glass core, orbiting orbital nodes, interactive sparkles, and a deep starfield, dynamically adapting to light/dark themes.
+We build, operate, and maintain 28+ in-house offerings. Here are our highlighted projects:
 
-### 🌗 Dual-Mesh Theming
-* **Midnight/Cosmic Mode**: Deep midnight, electric cyan, and soft violet radial glows.
-* **Warm Mishti Light Mode**: Soft cream background with saffron, deep rose, and amber highlight halos.
-* Handled smoothly via `next-themes` with a custom spring-rotating sun/moon switch.
-
-### ⚡ Performance & Physics
-* **Magnetic Motion**: Mouse-following pointer glows, magnetic navigations, spring-counter statistics, and infinite horizontal text marquees.
-* **Fully Responsive**: Edge-to-edge layouts, smooth mobile navigation drawer, and fully optimized WebP image rendering pipelines.
-* **Accessibility**: Full support for `prefers-reduced-motion` to skip intensive 3D/physics calculations.
+| Product | Description | Status | Website |
+| :--- | :--- | :--- | :--- |
+| **Pravah** | India-first CRM featuring multilingual pipelines, native WhatsApp messaging, and GST invoicing. | ![Live](https://img.shields.io/badge/Live-22c55e?style=flat-square&logo=whatsapp&logoColor=white) | [pravah.mishtilabs.com ↗](https://pravah.mishtilabs.com/) |
+| **FlowLife** | Unified personal finance and productivity suite connecting expense tracking and task flows. | ![Live](https://img.shields.io/badge/Live-22c55e?style=flat-square&logo=googlepay&logoColor=white) | [flowlife.mishtilabs.com ↗](https://flowlife.mishtilabs.com/) |
+| **GrowRight** | Gentle parent companion app for milestones, pediatrician logs, and sleep tracking. | ![Soon](https://img.shields.io/badge/Soon-a78bfa?style=flat-square) | — |
+| **WeddingVerse** | End-to-end wedding planning toolkit for modern couples and planners. | ![Soon](https://img.shields.io/badge/Soon-a78bfa?style=flat-square) | — |
+| **Vidya AI** | Socratic learning pathways and rubric-based grading engines. | ![Soon](https://img.shields.io/badge/Soon-a78bfa?style=flat-square) | — |
 
 ---
 
-## 🛠 Tech Stack
+## 🛠 Skills & Technology Suite
 
-| Category | Technology | Usage |
-| :--- | :--- | :--- |
-| **Core Framework** | Next.js 16 (App Router) | Static export generation, page rendering, file-based routing |
-| **Language** | TypeScript | Strong typing, compilation safety, code predictability |
-| **Styling** | Tailwind CSS v4 + Vanilla CSS | Modern tokens, custom utility classes, theme variables |
-| **3D Engine** | Three.js + React Three Fiber | Real-time WebGL rendering, 3D lighting, glass shaders |
-| **Motion Physics** | Motion (Framer) | Parallax scrolling, text reveals, hover spring animations |
-| **Theming** | `next-themes` | Client-side theme detection, local storage sync, SSR safety |
+### Frontend & Creative Engineering
+<p align="left">
+  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38BDF8?style=flat-square&logo=tailwindcss&logoColor=white" />
+  <img src="https://img.shields.io/badge/Three.js-black?style=flat-square&logo=threedotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/Framer_Motion-black?style=flat-square&logo=framer&logoColor=white" />
+</p>
+
+### Backend & Platform Engineering
+<p align="left">
+  <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" />
+  <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" />
+  <img src="https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white" />
+</p>
+
+---
+
+## 📈 GitHub Metrics
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=mishtilabs&show_icons=true&theme=tokyonight&count_private=true" alt="MishtiLabs GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mishtilabs&layout=compact&theme=tokyonight" alt="Top Languages" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=mishtilabs&theme=tokyonight" alt="GitHub Streak" />
+</p>
 
 ---
 
