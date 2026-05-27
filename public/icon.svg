@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="none" shape-rendering="geometricPrecision">
+  <title>MishtiLabs · Engineering the Future</title>
+  <defs>
+    <!-- Cool side: deep ocean → bright cobalt -->
+    <linearGradient id="ml-blue" x1="32" y1="40" x2="120" y2="220" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1e40af"/>
+      <stop offset="0.55" stop-color="#2563eb"/>
+      <stop offset="1" stop-color="#60a5fa"/>
+    </linearGradient>
+
+    <!-- Warm side: saffron → vermillion → magenta -->
+    <linearGradient id="ml-warm" x1="240" y1="40" x2="140" y2="220" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fb923c"/>
+      <stop offset="0.45" stop-color="#ea580c"/>
+      <stop offset="1" stop-color="#9d174d"/>
+    </linearGradient>
+
+    <!-- Indigo seam where the two halves overlap -->
+    <linearGradient id="ml-seam" x1="128" y1="40" x2="128" y2="220" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#312e81"/>
+      <stop offset="1" stop-color="#7e22ce"/>
+    </linearGradient>
+
+    <!-- Pixel particle gradients -->
+    <linearGradient id="ml-pix-blue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3b82f6"/>
+      <stop offset="1" stop-color="#1d4ed8"/>
+    </linearGradient>
+    <linearGradient id="ml-pix-warm" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fb923c"/>
+      <stop offset="1" stop-color="#dc2626"/>
+    </linearGradient>
+
+    <!-- Subtle inner highlight running along the folded ribbon -->
+    <linearGradient id="ml-sheen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.45"/>
+      <stop offset="0.45" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+
+    <filter id="ml-soft" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="0.4"/>
+    </filter>
+  </defs>
+
+  <!-- Left ribbon (blue half of M, including the inner V) -->
+  <path
+    d="M40 220 V44 L70 44 L128 156 L186 44 L216 44 L142 188 L128 188 Z"
+    fill="url(#ml-blue)"
+  />
+
+  <!-- Right ribbon overlay — folded plane in warm gradient -->
+  <path
+    d="M128 156 L186 44 L216 44 L216 220 L186 220 L186 102 L142 188 Z"
+    fill="url(#ml-warm)"
+  />
+
+  <!-- Indigo seam where they meet (gives the 3D fold) -->
+  <path
+    d="M128 156 L142 188 L186 102 L186 84 Z"
+    fill="url(#ml-seam)"
+    opacity="0.85"
+  />
+
+  <!-- Thin sheen along the top of each ribbon -->
+  <path
+    d="M40 44 H70 L74 50 H44 Z"
+    fill="url(#ml-sheen)"
+  />
+  <path
+    d="M186 44 H216 V50 H190 Z"
+    fill="url(#ml-sheen)"
+  />
+
+  <!-- LEFT pixel cloud (cool dispersion) -->
+  <g fill="url(#ml-pix-blue)" filter="url(#ml-soft)">
+    <rect x="6"   y="62"  width="14" height="14" rx="2"/>
+    <rect x="2"   y="92"  width="10" height="10" rx="2"/>
+    <rect x="22"  y="46"  width="10" height="10" rx="2"/>
+    <rect x="14"  y="120" width="8"  height="8"  rx="1.5"/>
+    <rect x="26"  y="78"  width="6"  height="6"  rx="1"/>
+    <rect x="40"  y="22"  width="9"  height="9"  rx="1.5"/>
+    <rect x="58"  y="14"  width="7"  height="7"  rx="1.2"/>
+    <rect x="80"  y="22"  width="6"  height="6"  rx="1"/>
+    <rect x="36"  y="148" width="5"  height="5"  rx="1"/>
+    <rect x="20"  y="170" width="4"  height="4"  rx="1"/>
+  </g>
+
+  <!-- RIGHT pixel cloud (warm dispersion) -->
+  <g fill="url(#ml-pix-warm)" filter="url(#ml-soft)">
+    <rect x="232" y="60"  width="14" height="14" rx="2"/>
+    <rect x="244" y="90"  width="10" height="10" rx="2"/>
+    <rect x="222" y="44"  width="10" height="10" rx="2"/>
+    <rect x="236" y="120" width="8"  height="8"  rx="1.5"/>
+    <rect x="226" y="78"  width="6"  height="6"  rx="1"/>
+    <rect x="210" y="20"  width="9"  height="9"  rx="1.5"/>
+    <rect x="190" y="12"  width="7"  height="7"  rx="1.2"/>
+    <rect x="170" y="22"  width="6"  height="6"  rx="1"/>
+    <rect x="220" y="148" width="5"  height="5"  rx="1"/>
+    <rect x="238" y="170" width="4"  height="4"  rx="1"/>
+  </g>
+</svg>

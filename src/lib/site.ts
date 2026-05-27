@@ -1,0 +1,95 @@
+export const SITE = {
+  name: "MishtiLabs",
+  legalName: "MishtiLabs Technologies Pvt. Ltd.",
+  tagline: "Engineering the future",
+  shortDescription:
+    "MishtiLabs is a product studio with 30+ software offerings — engineering deliciously useful products and bespoke software for ambitious teams.",
+  longDescription:
+    "MishtiLabs is an India-rooted product studio and software development company. We build and operate 30+ products — including Pravah CRM, GrowRight, WeddingVerse, Vidya AI, Annapurna and more — and offer custom software development, product strategy, design, mobile, AI/ML and platform engineering services. Engineering the future, with the warmth of mishti.",
+  url: "https://mishtilabs.com",
+  locale: "en_IN",
+  language: "en",
+  themeColor: {
+    light: "#f7f8fc",
+    dark: "#060812",
+  },
+  founded: "2018",
+  founders: ["Sourojit Dasgupta"],
+  email: "hello@mishtilabs.com",
+  telephone: "+91-99999-99999",
+  addressLocality: "Bengaluru",
+  addressRegion: "Karnataka",
+  addressCountry: "IN",
+  social: {
+    twitter: "@mishtilabs",
+    twitterUrl: "https://twitter.com/mishtilabs",
+    github: "https://github.com/mishtilabs",
+    linkedin: "https://www.linkedin.com/company/mishtilabs",
+    instagram: "https://www.instagram.com/mishtilabs",
+  },
+  keywords: [
+    // Brand & primary
+    "MishtiLabs",
+    "Mishti Labs",
+    "MishtiLabs software",
+    "MishtiLabs studio",
+    "Indian software studio",
+    "Indian software development company",
+    // Categories
+    "product studio India",
+    "software development company Bengaluru",
+    "custom software development India",
+    "SaaS development India",
+    "mobile app development India",
+    "AI development services",
+    "design systems India",
+    "Next.js agency",
+    "React Native agency",
+    "product engineering India",
+    "MVP development India",
+    "fractional CTO",
+    // Products (so each product brings traffic)
+    "Pravah CRM",
+    "Pravah CRM India",
+    "WhatsApp CRM India",
+    "GrowRight app for new parents",
+    "WeddingVerse wedding planner",
+    "Mehfil event ticketing",
+    "Kirana Cloud POS",
+    "Vidya AI adaptive learning",
+    "Vaidya telemedicine",
+    "Annapurna restaurant POS",
+    "Yatra OS travel planner",
+    "Mandi Pulse agritech",
+    "Lekha invoicing for freelancers",
+    "Sangrah document vault",
+    "Dhwani podcast hosting",
+    "Drishti computer vision API",
+    "Vimaan logistics tracking",
+    "Mela hyperlocal marketplace",
+    "Suraksha cybersecurity",
+  ],
+} as const;
+
+export const FAQ_ITEMS = [
+  {
+    q: "What does MishtiLabs do?",
+    a: "MishtiLabs is a product studio that owns and operates 30+ software offerings (such as Pravah CRM, GrowRight, WeddingVerse and Vidya AI) and offers custom software development, product strategy, design, mobile, AI/ML and platform engineering services to ambitious teams.",
+  },
+  {
+    q: "Where is MishtiLabs based?",
+    a: "Our team is based out of Bengaluru and Kolkata in India, and works remotely across timezones with clients globally.",
+  },
+  {
+    q: "How do engagements work?",
+    a: "We offer engagements ranging from 8-week sprints to multi-year platform partnerships. Senior practitioners own the work end-to-end — discovery, design, build and post-launch operations — and we typically respond to inbound enquiries within one working day.",
+  },
+  {
+    q: "Which technologies do you specialise in?",
+    a: "Next.js, React, React Native, TypeScript, Rust and Go on the application side; PostgreSQL, Redis and Kafka for data; Kubernetes, Terraform and Cloudflare/AWS/GCP for platform; and OpenAI/Anthropic-grade LLM, RAG and computer-vision pipelines for AI products.",
+  },
+  {
+    q: "Are MishtiLabs products available globally?",
+    a: "Yes. While many of our products are designed India-first (Pravah, Annapurna, Kirana Cloud, Mandi Pulse), most are available worldwide and ship with multi-currency, multi-locale and timezone-aware defaults.",
+  },
+];

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="g" x1="14" y1="20" x2="50" y2="48" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff7d6"/>
+      <stop offset="0.3" stop-color="#ffd166"/>
+      <stop offset="0.6" stop-color="#ffb938"/>
+      <stop offset="1" stop-color="#ff8c42"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="0.5" cy="0.5" r="0.55">
+      <stop offset="0" stop-color="#ffd166" stop-opacity="0.55"/>
+      <stop offset="0.55" stop-color="#ffb938" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#ffb938" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="droplet" cx="0.5" cy="0.4" r="0.6">
+      <stop offset="0" stop-color="#fff7e0"/>
+      <stop offset="0.5" stop-color="#ffb938"/>
+      <stop offset="1" stop-color="#ff8c42"/>
+    </radialGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="0.9" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect x="0" y="0" width="64" height="64" rx="14" fill="#04060f"/>
+  <ellipse cx="32" cy="34" rx="26" ry="26" fill="url(#halo)"/>
+
+  <ellipse cx="32" cy="32" rx="22" ry="9" stroke="url(#g)" stroke-width="0.9" opacity="0.55" transform="rotate(-25 32 32)"/>
+
+  <path d="M14 46 V20 L24 36 L32 22 L40 36 L50 20 V46"
+        stroke="url(#g)" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"
+        fill="none" filter="url(#glow)"/>
+
+  <path d="M32 30 C 34.5 33, 36 35, 36 37.4 C 36 39.7, 34.2 41.4, 32 41.4 C 29.8 41.4, 28 39.7, 28 37.4 C 28 35, 29.5 33, 32 30 Z"
+        fill="url(#droplet)"/>
+</svg>
